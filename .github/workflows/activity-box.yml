@@ -13,6 +13,5 @@ jobs:
       - uses: JasonEtco/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: lcalmsky
           GIST_ID: 7e3c82edb5c15976df3ff185b6743fa1
